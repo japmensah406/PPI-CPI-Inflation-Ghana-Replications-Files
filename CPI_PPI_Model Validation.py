@@ -13,7 +13,7 @@ import ruptures as rpt
 # 1. LOAD DATA
 # =========================================================
 
-file_path = r"C:\Users\USER\Desktop\PPI and CPI, Evidence From Granger Causality And VAR Modelling\Cointegrated.xlsx"
+file_path = "CPI_PPI_INFLATION.xlsx"
 
 df = pd.read_excel(file_path)
 
@@ -228,4 +228,5 @@ plt.grid(True, linestyle='--', alpha=0.5)
 plt.legend()
 plt.tight_layout()
 plt.show()
+
 
