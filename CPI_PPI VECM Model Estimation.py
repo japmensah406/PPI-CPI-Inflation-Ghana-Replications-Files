@@ -1,5 +1,5 @@
 # =====================================================
-# VECM ESTIMATION: CPI–PPI GHA THESIS-GRADE SCRIPT
+# VECM ESTIMATION: CPI–PPI IN GHANA SCRIPT
 # =====================================================
 
 import pandas as pd
@@ -405,5 +405,6 @@ ardl_res = ardl_model.fit()
 print(ardl_res.summary())
 
 import pandas as pd
+
 
 
