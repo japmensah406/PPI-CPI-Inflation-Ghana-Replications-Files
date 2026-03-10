@@ -14,7 +14,7 @@ from statsmodels.tsa.stattools import ccf
 # 1. LOAD DATA
 # =====================================================
 
-file_path = r"C:\Users\USER\Desktop\PPI and CPI, Evidence From Granger Causality And VAR Modelling\Cointegrated.xlsx"
+file_path = "CPI_PPI_INFLATION.xlsx"
 df = pd.read_excel(file_path)
 
 # Convert Date and set as monthly frequency
@@ -405,4 +405,5 @@ ardl_res = ardl_model.fit()
 print(ardl_res.summary())
 
 import pandas as pd
+
 
